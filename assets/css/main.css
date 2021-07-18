@@ -1,0 +1,71 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+   *{width: 100vw;height: 100vh;}
+   .calculator { /*ตัวเครื่อง*/
+    margin: 0 auto;
+    width: 260px;
+    height: 300px;
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(50px, 49px);
+    border-radius: 10px;
+    margin: 15% auto;
+    background-color: skyblue;
+    align-items: center;
+  } 
+  .display { /*จอเเสดงผล */
+    grid-column: 1/5;
+    width: 260px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding-bottom: 45px;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 47px;
+  } 
+   .clear { /*ปุ่มเคลียร์ */
+    grid-column: 1/4;
+    width: 180px;
+    height: 45px;
+    background-color: rgb(255, 0, 76);
+    border: 1px solid #999;
+    border-radius: 120px;
+    font-size: 34px;
+    font-weight: 800;
+    color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+   .btn { /*สีปุ่ม เส้รกรอบ*/
+    background-color: #F2F2F2;
+    border: 1px solid #999;
+    border-radius: 45px;
+    width: 45px;
+    height: 45px;
+    font-size: large;
+    font-weight:700 ;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+   .erase {  /*ปุ่มเครื่องหมาย */
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+  }
+  .base{
+      background-color: red;
+      border-radius: 15px;
+      width: 280px;
+      height: 320px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      margin: 0 auto;
+      margin: 15% auto;
+  }
